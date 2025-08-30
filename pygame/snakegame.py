@@ -100,7 +100,11 @@ def game_loop():
 
         if len(snake_list) > snake_length:
             del snake_list[0]
- 
+
+
+
+
+
         # Check self collision
         for block in snake_list[:-1]:
             if block == snake_head:
